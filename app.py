@@ -6,7 +6,7 @@ import joblib
 # file1=open("RandomForestModel.pk1","rb")
 # model=pickle.load(file1)
 # file1.close()
-model=joblib.load(open('finalProject.pkl','rb'))
+model=joblib.load(open('finalProject2.pkl','rb'))
 
 data=pd.read_csv("finalProjectData.csv")
 
