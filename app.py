@@ -48,7 +48,7 @@ if st.button('Predict Price'):
                              data=np.array([Model,Make,YOM,Used,Transmission,Mileage,Location,Age,Fuel_Type]).reshape(1,9))))
     print("Hello world")
     st.title("The car price ranges between " +
-             str(prediction - 50000) + " Ksh " + " - " + str(prediction +50000) + " Ksh " )
+             str(prediction - 20000) + " Ksh " + " - " + str(prediction +20000) + " Ksh " )
 
 
 
