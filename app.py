@@ -56,11 +56,9 @@ import numpy as np
 import joblib
 
 # Cache the model and data loading
-@st.cache_resource
 def load_model():
     return joblib.load(open('finalProject2.pkl', 'rb'))
 
-@st.cache_data
 def load_data():
     return pd.read_csv('finalProjectData.csv')
 
